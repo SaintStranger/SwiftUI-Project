@@ -10,11 +10,11 @@ import SwiftUI
 struct TabBarView: View {
     var body: some View {
         TabView {
-            LoginView()
+            ContentView()
                 .tabItem {
                     Label("Новости", systemImage: "newspaper")
                 }
-            LoginView()
+            TextModifierView()
                 .tabItem {
                     Label("Друзья", systemImage: "person.3")
                 }
